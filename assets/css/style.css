@@ -6,8 +6,8 @@
   --black: 0, 0, 0;
 }
 
-main{
-    height: 5000px;
+body{
+    overflow: hidden;
 }
 
 /*Header*/
@@ -18,12 +18,12 @@ header .img{
     background-image: url(../img/ag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 35rem;
     background-color: var(--secondary);
     top: 0;
     left: 0;
     clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 5em));
-    border-width: 0 1rem 0;
+    border-width: 0 1.5rem 0;
     border-color: var(--white);
     border-style: solid;
 }
@@ -42,6 +42,15 @@ header .img ul{
 }
 /*Header*/
 
+/*Contenido*/
+#contenido{
+    height: calc(100vh - 240px);
+}
+#contenido h2{
+    top: 0;
+}
+/*Contenido*/
+
 /*Utilities*/
 .bg-custom-primary{
     background-color: var(--primary);
@@ -49,9 +58,12 @@ header .img ul{
 .bg-custom-secondary{
     background-color: var(--secondary);
 }
-.fe-medium{
+.fw-medium{
     font-weight: 500;
 }
 .text-color{
     color: var(--text);
+}
+.title{
+    border-left: 0.313rem solid var(--secondary);
 }
