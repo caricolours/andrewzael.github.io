@@ -44,7 +44,7 @@ header .img{
     top: 0;
     left: 0;
     clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 5em));
-    border-width: 0 1.5rem 0;
+    border-width: 0 .8rem 0;
     border-color: var(--white);
     border-style: solid;
 }
