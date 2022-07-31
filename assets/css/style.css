@@ -27,10 +27,6 @@
 }
 /*Scroll*/
 
-body{
-    overflow: hidden;
-}
-
 /*Header*/
 header{
     top: 0;
@@ -42,9 +38,9 @@ header .img{
     height: 35rem;
     background-color: var(--secondary);
     top: 0;
-    left: 0;
+    left: 2px;
     clip-path: polygon( 0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 5em));
-    border-width: 0 .8rem 0;
+    border-width: 0 .85rem 0;
     border-color: var(--white);
     border-style: solid;
 }
@@ -65,10 +61,13 @@ header .img div{
 
 /*Contenido*/
 #contenido{
-    height: calc(100vh - 240px);
+    height: calc(100vh - 11.2rem);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 #contenido h2{
-    top: 0;
+    border-bottom: .063rem solid var(--secondary);
+    top: -1px;
     z-index: 1;
 }
 #contenido ul li i{
@@ -77,6 +76,12 @@ header .img div{
     bottom: 2px;
 }
 /*Contenido*/
+
+/*About me*/
+#about-me{
+    margin: 0 -1rem;
+}
+/*About me*/
 
 /*Habilidades*/
 .custom-progress{
