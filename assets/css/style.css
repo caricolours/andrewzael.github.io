@@ -27,6 +27,12 @@
 }
 /*Scroll*/
 
+/*Main*/
+main{
+    width: 95%!important;
+}
+/*Main*/
+
 /*Header*/
 header{
     top: 0;
@@ -82,6 +88,18 @@ header .img div{
     margin: 0 -1rem;
 }
 /*About me*/
+
+/*Portafolio*/
+#portafolio .btn{
+    background-color: var(--secondary);
+    color: var(--white);
+}
+#portafolio .btn:hover{
+    color: var(--text);
+    background-color: transparent;
+    border-color: var(--secondary);
+}
+/*Portafolio*/
 
 /*Habilidades*/
 .custom-progress{
