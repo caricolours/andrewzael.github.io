@@ -8,19 +8,17 @@
 
 /* Scroll */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 0.313rem;
 }
   
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--primary);
-    border-radius: 50rem;
 }
   
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--secondary);
-    border-radius: 50rem;
 }
   
 /* Handle on hover */
@@ -60,7 +58,7 @@ header .img::before{
     top: 0;
     left: 0;
 }
-header .img ul{
+header .img div{
     bottom: 12%;
 }
 /*Header*/
@@ -100,8 +98,5 @@ header .img ul{
     color: var(--text);
 }
 .title{
-    border-left: 0.313rem solid var(--secondary);
-}
-.p-left{
-    padding-left: 2rem;
+    box-shadow: 0.313rem 0 0 var(--secondary) inset;
 }
