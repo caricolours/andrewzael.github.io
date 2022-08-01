@@ -101,6 +101,9 @@ header .img div{
     background-color: var(--secondary);
     color: var(--white);
 }
+#portafolio .card .card-text{
+    min-height: 110px;
+}
 #portafolio .btn:hover{
     color: var(--text);
     background-color: transparent;
